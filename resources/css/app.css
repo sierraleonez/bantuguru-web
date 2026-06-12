@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3D3BF3;
+  --primary-dark: #2A28D4;
+  --primary-light: #EEEEFF;
+  --accent-yellow: #F0F67A;
+  --accent-yellow-bg: #FAFFD6;
+  --text-dark: #1A1A2E;
+  --text-mid: #555577;
+  --text-light: #8888AA;
+  --bg: #F2F3FA;
+  --card-radius: 18px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-dark);
+  line-height: 1.4;
+}
